@@ -4,7 +4,7 @@ This FastAPI-based API lets you retrieve manga panel links by providing manga na
 
 ## Setup
 
-1. Clone the repo: `git clone https://github.com/your-username/manga-panel-scraping-api.git`
+1. Clone the repo: `git clone https://github.com/LuizBudeu/manga-panel-scraper.git`
 2. Install packages: `pip install -r requirements.txt`
 3. Run the server: `uvicorn main:app --host 0.0.0.0 --port 8000`
 
