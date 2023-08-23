@@ -28,10 +28,10 @@ Make requests to available endpoints:
 
     -   Method: GET
     -   Parameters:
-        -   `url`: Series URL (link)
+        -   `series_url`: Series URL (link)
     -   Example request:
         ```
-        GET /get_chapters?url=/series/86788/skip-to-loafer
+        GET /get_chapters?series_url=/series/86788/skip-to-loafer
         ```
 
 -   `/get_image_link`: Get image link by chapter URL and page number.

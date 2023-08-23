@@ -35,12 +35,12 @@ def get_series_link(search_query: str):
                 series_link = first_result.find("a")["href"] # type: ignore
                 return {"search_query": search_query, "series_link": series_link}
     
-    return {"error": "No search result found"}
+    return {"error": f"No search result found for {search_query}"}
 
 
 @app.get("/get_chapters")
-async def get_chapters(url: str):
-    search_url = f"{BATO_URL}{url}"
+async def get_chapters(series_url: str):
+    search_url = f"{BATO_URL}{series_url}"
     response = requests.get(search_url)
     
     if response.status_code == 200:
@@ -53,9 +53,9 @@ async def get_chapters(url: str):
             chapter_link = chapter["href"]
             chapters.append({"title": chapter_title, "link": chapter_link})
         
-        return {"url": url, "chapters": chapters}
+        return {"series_url": series_url, "chapters": chapters}
     else:
-        return {"error": "Failed to fetch the manga page"}
+        return {"error": f"Failed to fetch the manga page for {series_url}"}
     
     
 @app.get("/get_image_link")
