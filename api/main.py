@@ -139,7 +139,7 @@ def get_manga_panel_link(manga_name: str, chapter: int, page_nums: str):
     image_link_data = image_link_response.json()
 
     return {
-        "manga_name_search_query": manga_name,
+        "manga_name": manga_name,
         "series_link": series_link,
         "chapter": chapter,
         "chapter_url": chapter_url,
