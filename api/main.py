@@ -19,6 +19,25 @@ def read_root():
     return {"message": "Welcome to your FastAPI app!"}
 
 
+@app.get("/get_series_link")
+def get_series_link(search_query: str):
+    search_url = f"{BATO_URL}/search?word={search_query.replace(' ', '+')}"
+    
+    response = requests.get(search_url)
+    
+    if response.status_code == 200:
+        soup = BeautifulSoup(response.content, "html.parser")
+        series_list_div = soup.find("div", class_="series-list")
+        
+        if series_list_div:
+            first_result = series_list_div.find("div", class_="col item line-b no-flag") # type: ignore
+            if first_result:
+                series_link = first_result.find("a")["href"] # type: ignore
+                return {"search_query": search_query, "series_link": series_link}
+    
+    return {"error": "No search result found"}
+
+
 @app.get("/get_chapters")
 async def get_chapters(url: str):
     search_url = f"{BATO_URL}{url}"
@@ -46,7 +65,7 @@ async def get_image_link(chapter_url: str, page_nums: str): # type: ignore
         img_url = img_element.get_attribute("src")
 
         if index + 1 in page_nums:
-            return {"image_link": img_url, "chapter_url": chapter_url, "page_num": index + 1}
+            return {"image_link": img_url, "page_num": index + 1}
         else:
             return None
         
@@ -62,8 +81,6 @@ async def get_image_link(chapter_url: str, page_nums: str): # type: ignore
     try:
         driver.get(search_url)
         
-        time.sleep(5)
-    
         # Find the main container of manga panels
         panel_container = driver.find_element(By.ID, "viewer")
     
@@ -79,29 +96,10 @@ async def get_image_link(chapter_url: str, page_nums: str): # type: ignore
     
         image_links = await asyncio.gather(*tasks)
     
-        return image_links
+        return {"chapter_url": chapter_url, "image_links": image_links}
     
     finally:
         driver.quit()
-        
-
-@app.get("/get_series_link")
-def get_series_link(search_query: str):
-    search_url = f"{BATO_URL}/search?word={search_query.replace(' ', '+')}"
-    
-    response = requests.get(search_url)
-    
-    if response.status_code == 200:
-        soup = BeautifulSoup(response.content, "html.parser")
-        series_list_div = soup.find("div", class_="series-list")
-        
-        if series_list_div:
-            first_result = series_list_div.find("div", class_="col item line-b no-flag") # type: ignore
-            if first_result:
-                series_link = first_result.find("a")["href"] # type: ignore
-                return {"search_query": search_query, "series_link": series_link}
-    
-    return {"error": "No search result found"}
 
 
 @app.get("/get_manga_panel_link")
@@ -132,8 +130,6 @@ def get_manga_panel_link(manga_name: str, chapter: int, page_nums: str):
     
     chapter_url = target_chapter["link"]
     
-    print(chapter_url, page_nums)
-        
     # Get the image link for the specified page number
     image_link_response = requests.get(f"http://127.0.0.1:8000/get_image_link?chapter_url={chapter_url}&page_nums={page_nums}")
     
@@ -143,10 +139,11 @@ def get_manga_panel_link(manga_name: str, chapter: int, page_nums: str):
     image_link_data = image_link_response.json()
 
     return {
-        "manga_name": manga_name,
+        "manga_name_search_query": manga_name,
+        "series_link": series_link,
         "chapter": chapter,
+        "chapter_url": chapter_url,
         "page_nums": page_nums,
-        "images": image_link_data,
-        "series_link": series_link
+        "image_links": image_link_data["image_links"],
     }
     

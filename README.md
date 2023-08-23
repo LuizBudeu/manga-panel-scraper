@@ -45,7 +45,7 @@ Make requests to available endpoints:
         GET /get_image_link?chapter_url=/chapter/1683038&page_nums=5,6,7
         ```
 
--   `/get_manga_panel_link`: Get image link by manga name, chapter, and page number.
+-   `/get_manga_panel_link`: Get image link by manga name, chapter, and page number. This endpoint takes ~25 seconds (uses selenium to launch headless browser)
     -   Method: GET
     -   Parameters:
         -   `manga_name`: Manga name search query
