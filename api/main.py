@@ -59,7 +59,7 @@ async def get_chapters(series_url: str):
     
     
 @app.get("/get_image_link")
-async def get_image_link(chapter_url: str, page_nums: str): # type: ignore
+async def get_images_links(chapter_url: str, page_nums: str): # type: ignore
     async def download_panel(panel, index):
         img_element = panel.find_element(By.TAG_NAME, "img")
         img_url = img_element.get_attribute("src")
@@ -103,7 +103,7 @@ async def get_image_link(chapter_url: str, page_nums: str): # type: ignore
 
 
 @app.get("/get_manga_panel_link")
-def get_manga_panel_link(manga_name: str, chapter: int, page_nums: str):
+def get_manga_panels_links(manga_name: str, chapter: int, page_nums: str):
     # Get the series link based on the manga name
     series_response = requests.get(f"http://127.0.0.1:8000/get_series_link?search_query={manga_name}")
     

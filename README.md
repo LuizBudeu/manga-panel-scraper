@@ -34,23 +34,23 @@ Make requests to available endpoints:
         GET /get_chapters?series_url=/series/86788/skip-to-loafer
         ```
 
--   `/get_image_link`: Get image link by chapter URL and page number.
+-   `/get_images_links`: Get images links by chapter URL and page numbers.
 
     -   Method: GET
     -   Parameters:
         -   `chapter_url`: Chapter URL
-        -   `page_nums`: Pages numbers
+        -   `page_nums`: Page numbers
     -   Example request:
         ```
         GET /get_image_link?chapter_url=/chapter/1683038&page_nums=5,6,7
         ```
 
--   `/get_manga_panel_link`: Get image link by manga name, chapter, and page number. This endpoint takes ~25 seconds (uses selenium to launch headless browser)
+-   `/get_manga_panels_links`: Get images links by manga name, chapter, and page numbers. This endpoint takes ~25 seconds (uses selenium to launch headless browser)
     -   Method: GET
     -   Parameters:
         -   `manga_name`: Manga name search query
         -   `chapter`: Chapter number
-        -   `page_nums`: Pages numbers
+        -   `page_nums`: Page numbers
     -   Example request:
         ```
         GET /get_manga_panel_link?manga_name=skip and loafer&chapter=3&page_nums=5,6,7
