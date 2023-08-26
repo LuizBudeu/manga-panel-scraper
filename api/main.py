@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
@@ -8,10 +9,21 @@ import time
 import os
 import asyncio
 import re
+from dotenv import load_dotenv
 
 
 app = FastAPI()
 BATO_URL = "https://batocomic.com"
+
+load_dotenv()
+
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000"],  # Add the origin of your React app
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 @app.get("/")
@@ -58,7 +70,7 @@ async def get_chapters(series_url: str):
         return {"error": f"Failed to fetch the manga page for {series_url}"}
     
     
-@app.get("/get_image_link")
+@app.get("/get_images_links")
 async def get_images_links(chapter_url: str, page_nums: str): # type: ignore
     async def download_panel(panel, index):
         img_element = panel.find_element(By.TAG_NAME, "img")
@@ -102,7 +114,7 @@ async def get_images_links(chapter_url: str, page_nums: str): # type: ignore
         driver.quit()
 
 
-@app.get("/get_manga_panel_link")
+@app.get("/get_manga_panels_links")
 def get_manga_panels_links(manga_name: str, chapter: int, page_nums: str):
     # Get the series link based on the manga name
     series_response = requests.get(f"http://127.0.0.1:8000/get_series_link?search_query={manga_name}")
@@ -114,7 +126,7 @@ def get_manga_panels_links(manga_name: str, chapter: int, page_nums: str):
     series_link = series_data["series_link"]
     
     # Get the chapters for the series
-    chapters_response = requests.get(f"http://127.0.0.1:8000/get_chapters?url={series_link}")
+    chapters_response = requests.get(f"http://127.0.0.1:8000/get_chapters?series_url={series_link}")
     
     if chapters_response.status_code != 200:
         return {"error": f"Failed to retrieve chapters, code: {chapters_response.status_code}. Args: {series_link=}"}
@@ -131,7 +143,7 @@ def get_manga_panels_links(manga_name: str, chapter: int, page_nums: str):
     chapter_url = target_chapter["link"]
     
     # Get the image link for the specified page number
-    image_link_response = requests.get(f"http://127.0.0.1:8000/get_image_link?chapter_url={chapter_url}&page_nums={page_nums}")
+    image_link_response = requests.get(f"http://127.0.0.1:8000/get_images_links?chapter_url={chapter_url}&page_nums={page_nums}")
     
     if image_link_response.status_code != 200:
         return {"error": f"Failed to retrieve manga panel link, code: {image_link_response.status_code}. Args: {chapter_url=}, {page_nums=}"}
@@ -147,3 +159,11 @@ def get_manga_panels_links(manga_name: str, chapter: int, page_nums: str):
         "image_links": image_link_data["image_links"],
     }
     
+    
+@app.get("/proxy_mal")
+def proxy_mal(user_name: str):
+    mal_url = f"https://api.myanimelist.net/v2/users/{user_name}/mangalist?fields=list_status&limit=10" # todo make limit bigger
+
+    response = requests.get(mal_url, headers={"X-MAL-CLIENT-ID": f"{os.environ.get('MAL_CLIENT_ID')}"})
+    
+    return response.json()
