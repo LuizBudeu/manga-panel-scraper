@@ -131,7 +131,7 @@ def get_manga_panels_links(manga_name: str, chapter: int, page_nums: str):
     # Get the series link based on the manga name
     series_response = requests.get(f"http://127.0.0.1:8000/get_series_link?search_query={manga_name}")
     
-    if series_response.status_code != 200:
+    if "error" in series_response.json():
         return {"error": f"Failed to retrieve series link, code: {series_response.status_code}. Args: {manga_name=}"}
     
     series_data = series_response.json()
@@ -140,7 +140,7 @@ def get_manga_panels_links(manga_name: str, chapter: int, page_nums: str):
     # Get the chapters for the series
     chapters_response = requests.get(f"http://127.0.0.1:8000/get_chapters?series_url={series_link}")
     
-    if chapters_response.status_code != 200:
+    if "error" in chapters_response.json():
         return {"error": f"Failed to retrieve chapters, code: {chapters_response.status_code}. Args: {series_link=}"}
     
     chapters_data = chapters_response.json()
@@ -157,7 +157,7 @@ def get_manga_panels_links(manga_name: str, chapter: int, page_nums: str):
     # Get the image link for the specified page number
     image_link_response = requests.get(f"http://127.0.0.1:8000/get_images_links?chapter_url={chapter_url}&page_nums={page_nums}")
     
-    if image_link_response.status_code != 200:
+    if "error" in image_link_response.json():
         return {"error": f"Failed to retrieve manga panel link, code: {image_link_response.status_code}. Args: {chapter_url=}, {page_nums=}"}
     
     image_link_data = image_link_response.json()
