@@ -42,13 +42,24 @@ def get_series_link(search_query: str):
         series_list_div = soup.find("div", class_="series-list")
         
         if series_list_div:
+            # Find all results that match the search query
+            matching_results = series_list_div.find_all("div", class_="item-text") # type: ignore
+            
+            for result in matching_results:
+                manga_name_anchor = result.find("a")
+                if manga_name_anchor and manga_name_anchor.text.strip().lower() == search_query.lower():
+                    series_link = result.find("a")["href"]
+
+                    return {"search_query": search_query, "series_link": series_link}
+            
+            # If no exact match, get the first result
             first_result = series_list_div.find("div", class_="col item line-b no-flag") # type: ignore
             if first_result:
                 series_link = first_result.find("a")["href"] # type: ignore
                 return {"search_query": search_query, "series_link": series_link}
     
     return {"error": f"No search result found for {search_query}"}
-
+    
 
 @app.get("/get_chapters")
 async def get_chapters(series_url: str):
@@ -116,6 +127,7 @@ async def get_images_links(chapter_url: str, page_nums: str): # type: ignore
 
 @app.get("/get_manga_panels_links")
 def get_manga_panels_links(manga_name: str, chapter: int, page_nums: str):
+    
     # Get the series link based on the manga name
     series_response = requests.get(f"http://127.0.0.1:8000/get_series_link?search_query={manga_name}")
     
@@ -134,9 +146,9 @@ def get_manga_panels_links(manga_name: str, chapter: int, page_nums: str):
     chapters_data = chapters_response.json()
     
     # Filter the chapter data to find the desired chapter
-    chapter_pattern = re.compile(rf"Chapter {chapter}\b", re.IGNORECASE)
+    chapter_pattern = re.compile(rf"Chapter 0*{chapter}\b", re.IGNORECASE)
     target_chapter = next((ch for ch in chapters_data["chapters"] if re.search(chapter_pattern, ch["title"])), None)
-                
+
     if not target_chapter:
         return {"error": f"Chapter {chapter} not found. Available chapters: {', '.join(ch['title'] for ch in chapters_data['chapters'])}"}
     
