@@ -1,0 +1,1308 @@
+{
+    "data": [
+        {
+            "node": {
+                "id": 119161,
+                "title": "Spy x Family",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/219741.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/219741l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 101
+            }
+        },
+        {
+            "node": {
+                "id": 118289,
+                "title": "Skip to Loafer",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/220669.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/220669l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 102
+            }
+        },
+        {
+            "node": {
+                "id": 22,
+                "title": "Rurouni Kenshin: Meiji Kenkaku Romantan",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/127583.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/127583l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 103
+            }
+        },
+        {
+            "node": {
+                "id": 610,
+                "title": "Skip Beat!",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/255389.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/255389l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 104
+            }
+        },
+        {
+            "node": {
+                "id": 11327,
+                "title": "One Outs",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/169329.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/169329l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 105
+            }
+        },
+        {
+            "node": {
+                "id": 11514,
+                "title": "Otoyomegatari",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/188950.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/188950l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 106
+            }
+        },
+        {
+            "node": {
+                "id": 13245,
+                "title": "Chihayafuru",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/1/245072.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/1/245072l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 107
+            }
+        },
+        {
+            "node": {
+                "id": 92559,
+                "title": "Diamond no Ace Act II",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/167576.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/167576l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 108
+            }
+        },
+        {
+            "node": {
+                "id": 93097,
+                "title": "Monogatari Series: Off Season",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/181555.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/181555l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 109
+            }
+        },
+        {
+            "node": {
+                "id": 61579,
+                "title": "Tobaku Datenroku Kaiji: One Poker-hen",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/106039.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/106039l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 110
+            }
+        },
+        {
+            "node": {
+                "id": 81211,
+                "title": "Shuumatsu Nani Shitemasu ka? Isogashii desu ka? Sukutte Moratte Ii desu ka?",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/174609.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/174609l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 111
+            }
+        },
+        {
+            "node": {
+                "id": 114745,
+                "title": "Blue Lock",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/5/213340.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/5/213340l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 112
+            }
+        },
+        {
+            "node": {
+                "id": 124374,
+                "title": "Souyaku Toaru Majutsu no Index",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/229100.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/229100l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 113
+            }
+        },
+        {
+            "node": {
+                "id": 23390,
+                "title": "Shingeki no Kyojin",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/37846.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/37846l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 114
+            }
+        },
+        {
+            "node": {
+                "id": 214,
+                "title": "Kidou Senshi Gundam: The Origin",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/1/151300.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/1/151300l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 115
+            }
+        },
+        {
+            "node": {
+                "id": 2062,
+                "title": "Kara no Kyoukai: The Garden of Sinners",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/45015.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/45015l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 116
+            }
+        },
+        {
+            "node": {
+                "id": 8157,
+                "title": "Kamisama Hajimemashita",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/1/269698.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/1/269698l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 117
+            }
+        },
+        {
+            "node": {
+                "id": 79085,
+                "title": "Given",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/1/172497.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/1/172497l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 118
+            }
+        },
+        {
+            "node": {
+                "id": 1342,
+                "title": "Baccano!",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/172736.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/172736l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 119
+            }
+        },
+        {
+            "node": {
+                "id": 11734,
+                "title": "Watashitachi no Shiawase na Jikan",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/66993.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/66993l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 120
+            }
+        },
+        {
+            "node": {
+                "id": 113138,
+                "title": "Jujutsu Kaisen",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/210341.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/210341l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 121
+            }
+        },
+        {
+            "node": {
+                "id": 44307,
+                "title": "Kakukaku Shikajika",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/1/154270.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/1/154270l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 122
+            }
+        },
+        {
+            "node": {
+                "id": 101396,
+                "title": "Sasaki to Miyano",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/187122.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/187122l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 123
+            }
+        },
+        {
+            "node": {
+                "id": 102,
+                "title": "Fruits Basket",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/269697.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/269697l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 124
+            }
+        },
+        {
+            "node": {
+                "id": 3649,
+                "title": "Fate/Zero",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/186073.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/186073l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 125
+            }
+        },
+        {
+            "node": {
+                "id": 56529,
+                "title": "Bungou Stray Dogs",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/100769.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/100769l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 126
+            }
+        },
+        {
+            "node": {
+                "id": 28393,
+                "title": "Sakamichi no Apollon",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/254787.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/254787l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 127
+            }
+        },
+        {
+            "node": {
+                "id": 33327,
+                "title": "Tokyo Ghoul",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/114037.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/114037l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 128
+            }
+        },
+        {
+            "node": {
+                "id": 39859,
+                "title": "Steins;Gate",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/72649.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/72649l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 129
+            }
+        },
+        {
+            "node": {
+                "id": 137303,
+                "title": "Hirayasumi",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/249992.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/249992l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 130
+            }
+        },
+        {
+            "node": {
+                "id": 113010,
+                "title": "Bakemonogatari",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/210355.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/210355l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 131
+            }
+        },
+        {
+            "node": {
+                "id": 121213,
+                "title": "Kimi wa Houkago Insomnia",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/221335.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/221335l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 132
+            }
+        },
+        {
+            "node": {
+                "id": 123649,
+                "title": "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/235341.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/235341l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 133
+            }
+        },
+        {
+            "node": {
+                "id": 5744,
+                "title": "Ping Pong",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/151416.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/151416l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 134
+            }
+        },
+        {
+            "node": {
+                "id": 66517,
+                "title": "Umineko no Naku Koro ni",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/1/185819.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/1/185819l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 135
+            }
+        },
+        {
+            "node": {
+                "id": 87844,
+                "title": "The Fable",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/152911.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/152911l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 136
+            }
+        },
+        {
+            "node": {
+                "id": 88639,
+                "title": "Ohayou, Ibarahime",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/164641.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/164641l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 137
+            }
+        },
+        {
+            "node": {
+                "id": 116312,
+                "title": "19 Tian",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/258684.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/258684l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 138
+            }
+        },
+        {
+            "node": {
+                "id": 143441,
+                "title": "Omniscient Reader",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/1/265768.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/1/265768l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 139
+            }
+        },
+        {
+            "node": {
+                "id": 92299,
+                "title": "Berserk: Shinen no Kami 2",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/1/162254.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/1/162254l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 140
+            }
+        },
+        {
+            "node": {
+                "id": 93753,
+                "title": "Vanitas no Karte",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/176009.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/176009l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 141
+            }
+        },
+        {
+            "node": {
+                "id": 104538,
+                "title": "Kimi no Suizou wo Tabetai",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/191611.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/191611l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 142
+            }
+        },
+        {
+            "node": {
+                "id": 21498,
+                "title": "Umineko no Naku Koro ni Chiru - Episode 5: End of the Golden Witch",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/273941.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/273941l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 143
+            }
+        },
+        {
+            "node": {
+                "id": 38071,
+                "title": "Spirit Circle",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/161198.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/161198l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 144
+            }
+        },
+        {
+            "node": {
+                "id": 46282,
+                "title": "Chikan Otoko",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/4/155148.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/4/155148l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 145
+            }
+        },
+        {
+            "node": {
+                "id": 30,
+                "title": "Ouran Koukou Host Club",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/267782.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/267782l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 146
+            }
+        },
+        {
+            "node": {
+                "id": 87610,
+                "title": "Tensei shitara Slime Datta Ken",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/152383.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/152383l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 147
+            }
+        },
+        {
+            "node": {
+                "id": 111213,
+                "title": "Bastard",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/1/205549.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/1/205549l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 148
+            }
+        },
+        {
+            "node": {
+                "id": 97244,
+                "title": "Shimanami Tasogare",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/174018.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/174018l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 149
+            }
+        },
+        {
+            "node": {
+                "id": 1183,
+                "title": "Cross Game",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/1/260530.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/1/260530l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 150
+            }
+        },
+        {
+            "node": {
+                "id": 1469,
+                "title": "Glass no Kamen",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/1/264109.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/1/264109l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 151
+            }
+        },
+        {
+            "node": {
+                "id": 6812,
+                "title": "Kyou kara Ore wa!!",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/266260.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/266260l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 152
+            }
+        },
+        {
+            "node": {
+                "id": 112988,
+                "title": "blanc",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/239600.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/239600l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 153
+            }
+        },
+        {
+            "node": {
+                "id": 121405,
+                "title": "Mo Dao Zu Shi",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/258745.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/258745l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 154
+            }
+        },
+        {
+            "node": {
+                "id": 25515,
+                "title": "JoJo no Kimyou na Bouken Part 8: JoJolion",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/1/179885.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/1/179885l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 155
+            }
+        },
+        {
+            "node": {
+                "id": 36413,
+                "title": "Hinamatsuri",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/285804.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/285804l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 156
+            }
+        },
+        {
+            "node": {
+                "id": 43,
+                "title": "Eyeshield 21",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/165586.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/165586l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 157
+            }
+        },
+        {
+            "node": {
+                "id": 7482,
+                "title": "Rainbow: Nisha Rokubou no Shichinin",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/217981.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/217981l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 158
+            }
+        },
+        {
+            "node": {
+                "id": 7519,
+                "title": "Kami nomi zo Shiru Sekai",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/188974.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/188974l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 159
+            }
+        },
+        {
+            "node": {
+                "id": 11054,
+                "title": "Billy Bat",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/181197.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/181197l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 160
+            }
+        },
+        {
+            "node": {
+                "id": 3285,
+                "title": "Holyland",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/258962.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/258962l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 161
+            }
+        },
+        {
+            "node": {
+                "id": 4658,
+                "title": "Fullmetal Alchemist",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/1/202288.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/1/202288l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 162
+            }
+        },
+        {
+            "node": {
+                "id": 100323,
+                "title": "Yuukoku no Moriarty",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/1/186121.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/1/186121l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 163
+            }
+        },
+        {
+            "node": {
+                "id": 107562,
+                "title": "Kusuriya no Hitorigoto",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/201154.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/201154l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 164
+            }
+        },
+        {
+            "node": {
+                "id": 77597,
+                "title": "Adachi to Shimamura",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/1/134265.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/1/134265l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 165
+            }
+        },
+        {
+            "node": {
+                "id": 85719,
+                "title": "Blue Giant",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/1/148869.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/1/148869l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 166
+            }
+        },
+        {
+            "node": {
+                "id": 115506,
+                "title": "Yagate Kimi ni Naru: Saeki Sayaka ni Tsuite",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/222780.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/222780l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 167
+            }
+        },
+        {
+            "node": {
+                "id": 119072,
+                "title": "Here U Are",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/1/226061.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/1/226061l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 168
+            }
+        },
+        {
+            "node": {
+                "id": 121269,
+                "title": "Who Made Me a Princess",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/1/222587.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/1/222587l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 169
+            }
+        },
+        {
+            "node": {
+                "id": 121504,
+                "title": "Yubisaki to Renren",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/5/262471.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/5/262471l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 170
+            }
+        },
+        {
+            "node": {
+                "id": 129621,
+                "title": "Medalist",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/235204.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/235204l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 171
+            }
+        },
+        {
+            "node": {
+                "id": 98380,
+                "title": "Bungou Stray Dogs",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/180919.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/180919l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 172
+            }
+        },
+        {
+            "node": {
+                "id": 3299,
+                "title": "Ookami to Koushinryou",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/153861.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/153861l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 173
+            }
+        },
+        {
+            "node": {
+                "id": 62795,
+                "title": "Tomodachi Game",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/271631.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/271631l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 174
+            }
+        },
+        {
+            "node": {
+                "id": 79993,
+                "title": "Umineko no Naku Koro ni Chiru",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/185817.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/185817l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 175
+            }
+        },
+        {
+            "node": {
+                "id": 48399,
+                "title": "No Game No Life",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/188186.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/188186l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 176
+            }
+        },
+        {
+            "node": {
+                "id": 18161,
+                "title": "Katanagatari",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/167366.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/167366l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 177
+            }
+        },
+        {
+            "node": {
+                "id": 29211,
+                "title": "Gekkan Shoujo Nozaki-kun",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/208752.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/208752l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 178
+            }
+        },
+        {
+            "node": {
+                "id": 137200,
+                "title": "Mo Dao Zu Shi",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/1/267154.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/1/267154l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 179
+            }
+        },
+        {
+            "node": {
+                "id": 743,
+                "title": "21st Century Boys",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/263856.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/263856l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 180
+            }
+        },
+        {
+            "node": {
+                "id": 1032,
+                "title": "Doraemon",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/41460.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/41460l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 181
+            }
+        },
+        {
+            "node": {
+                "id": 17051,
+                "title": "Barakamon",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/1/216099.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/1/216099l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 182
+            }
+        },
+        {
+            "node": {
+                "id": 658,
+                "title": "Mugen no Juunin",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/1/279869.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/1/279869l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 183
+            }
+        },
+        {
+            "node": {
+                "id": 3807,
+                "title": "Juuni Kokuki",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/157938.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/157938l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 184
+            }
+        },
+        {
+            "node": {
+                "id": 21499,
+                "title": "Umineko no Naku Koro ni Chiru - Episode 6: Dawn of the Golden Witch",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/273942.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/273942l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 185
+            }
+        },
+        {
+            "node": {
+                "id": 42451,
+                "title": "Horimiya",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/245008.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/245008l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 186
+            }
+        },
+        {
+            "node": {
+                "id": 12854,
+                "title": "Toaru Majutsu no Index",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/176880.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/176880l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 187
+            }
+        },
+        {
+            "node": {
+                "id": 141120,
+                "title": "The Boxer",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/251281.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/251281l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 188
+            }
+        },
+        {
+            "node": {
+                "id": 88930,
+                "title": "Youjo Senki",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/155214.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/155214l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 189
+            }
+        },
+        {
+            "node": {
+                "id": 93699,
+                "title": "Innocent Rouge",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/1/167646.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/1/167646l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 190
+            }
+        },
+        {
+            "node": {
+                "id": 115922,
+                "title": "Kage no Jitsuryokusha ni Naritakute!",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/1/269801.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/1/269801l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 191
+            }
+        },
+        {
+            "node": {
+                "id": 110160,
+                "title": "Mata, Onaji Yume wo Miteita",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/207726.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/207726l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 192
+            }
+        },
+        {
+            "node": {
+                "id": 119279,
+                "title": "Hirano to Kagiura",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/221355.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/221355l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 193
+            }
+        },
+        {
+            "node": {
+                "id": 138533,
+                "title": "Nan Hao Shang Feng",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/1/254654.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/1/254654l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 194
+            }
+        },
+        {
+            "node": {
+                "id": 42,
+                "title": "Dragon Ball",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/1/267793.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/1/267793l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 195
+            }
+        },
+        {
+            "node": {
+                "id": 419,
+                "title": "Nodame Cantabile",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/2/153962.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/2/153962l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 196
+            }
+        },
+        {
+            "node": {
+                "id": 768,
+                "title": "Gunnm",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/274715.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/274715l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 197
+            }
+        },
+        {
+            "node": {
+                "id": 3572,
+                "title": "Tobaku Mokushiroku Kaiji",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/286560.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/286560l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 198
+            }
+        },
+        {
+            "node": {
+                "id": 3866,
+                "title": "Kuroshitsuji",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/248448.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/248448l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 199
+            }
+        },
+        {
+            "node": {
+                "id": 8967,
+                "title": "Onanie Master Kurosawa",
+                "main_picture": {
+                    "medium": "https://cdn.myanimelist.net/images/manga/3/212092.jpg",
+                    "large": "https://cdn.myanimelist.net/images/manga/3/212092l.jpg"
+                }
+            },
+            "ranking": {
+                "rank": 200
+            }
+        }
+    ],
+    "paging": {
+        "previous": "https://api.myanimelist.net/v2/manga/ranking?offset=0&ranking_type=all&limit=100",
+        "next": "https://api.myanimelist.net/v2/manga/ranking?offset=200&ranking_type=all&limit=100"
+    }
+}
