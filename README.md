@@ -42,7 +42,7 @@ Make requests to available endpoints:
         -   `page_nums`: Page numbers
     -   Example request:
         ```
-        GET /get_image_link?chapter_url=/chapter/1683038&page_nums=5,6,7
+        GET /get_images_links?chapter_url=/chapter/1683038&page_nums=5,6,7
         ```
 
 -   `/get_manga_panels_links`: Get images links by manga name, chapter, and page numbers. This endpoint takes ~25 seconds (uses selenium to launch headless browser)
@@ -53,7 +53,7 @@ Make requests to available endpoints:
         -   `page_nums`: Page numbers
     -   Example request:
         ```
-        GET /get_manga_panel_link?manga_name=skip and loafer&chapter=3&page_nums=5,6,7
+        GET /get_manga_panels_links?manga_name=skip and loafer&chapter=37&page_nums=5,6,7
         ```
 
 There are also separated scripts in the `scripts` folder.
